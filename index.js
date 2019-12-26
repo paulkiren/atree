@@ -42,8 +42,16 @@ function run() {
           factor: factor
         }),
         new Spiral({
-          foreground: "#00ffcc", // cyan spiral
+          foreground: "#51ff0d", // cyan spiral
           angleoffset: 0,
+          factor: factor
+        }),  new Spiral({
+          foreground: "#0000ff", // blue spiral
+          angleoffset:-Math.PI * 0.50,
+          factor: factor
+        }),  new Spiral({
+          foreground: "#ccff00", // blue spiral
+          angleoffset: Math.PI * 0.50,
           factor: factor
         })];
 
